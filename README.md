@@ -19,4 +19,10 @@ After download the V2 Deauther .bin we need to flash it on the Esp8266 via a sin
 
 Where /dev/ttyUSB0 is the COM port of your device, write_flash is telling the program to write to flash memory, -fm dout is the flash mode and esp8266_deauther_2.6.0.bin is the name of your .bin file. if you get an error with this command, just enter your serial port replaced to /dev/ttyUSB0 , you can use <a href="https://www.uwe-sieber.de/usbtreeview_e.html#download">UsbTreeView</a> for see all the serial ports are connected via USB, after you have your COM port, just replace /dev/ttyUSB0 with your COM port, Ex COM1, COM2, COM3, COM4, COM5. And then Launch the command and wait for the flashing end
 
+# We  need now to transfer the .faps on the flipper and everything will work
 
+- You can download the Deauther V2.6.0 .faps from <a href="https://github.com/HEX0DAYS/FlipperZero-CONVERT/blob/5b3c00dce5286211581b37c7cee997f71d05a80d/Deauther2.6.0_FAPS/ESP8266_B4_Wifi_Deauther.fap">HERE</a> (Already compiled) and put on applications/GPIO/ on the SD-Card of your Flipper Zero. Then plug the SD-card on your flipper, the esp8266 board on the flipper, go on Applications/GPIO and then you can run the version 2.6.0 the Deauther with everything working, <b>IMPORTANT</b> When you open the app, let the Esp8266 finish to scan, wait for the blue LED to go off, once it is off you can click on the other things, otherwise, the app will crash. every time the deauther is started it will start an automatic scan, remember not to touch anything while it does its startup scan.
+
+# How to upgrade your Deauther's attacks
+
+- Very simple, we should go and change the settings that we find when we connect via the web to our esp8266.
