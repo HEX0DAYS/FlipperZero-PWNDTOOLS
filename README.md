@@ -12,6 +12,9 @@ here you can find the optimized Version 2 of the <a href="https://github.com/Seq
 After download the V2 Deauther .bin we need to flash it on the Esp8266 via a single command.
 
 - Using the NodeMCU (or any similar development board), the flash location is 0x0000 and the mode is dout.
-esptool.py -p /dev/ttyUSB0 write_flash -fm dout 0x0000 esp8266_deauther.ino.nodemcu.bin
+
+<b>esptool.py -p /dev/ttyUSB0 write_flash -fm dout 0x0000 esp8266_deauther.ino.nodemcu.bin</b> or 
+<b>esptool -p /dev/ttyUSB0 write_flash -fm dout 0x0000 esp8266_deauther.ino.nodemcu.bin</b>
+
 Where /dev/ttyUSB0 is the COM port of your device, write_flash is telling the program to write to flash memory, -fm dout is the flash mode and esp8266_deather.ino.nodemcu.bin is the name of your .bin file. if you get an error with this command, just enter your serial port replaced to /dev/ttyUSB0 , you can use <a href="https://www.uwe-sieber.de/usbtreeview_e.html#download">UsbTreeView</a> for see all the serial ports are connected via USB, after you have your COM port, just replace /dev/ttyUSB0 with your COM port, Ex COM1, COM2, COM3, COM4, COM5. And then Launch the command and wait for the flashing end
 
