@@ -1,4 +1,4 @@
-# FlipperZero-CONVERT / Wifi Board / DEAUTH V2.0 - ESP8266 for Flipper Zero (Deauth working)
+# FlipperZero PWNDTOOLS / Wifi Board / DEAUTH V2.6.0 - ESP8266 for Flipper Zero (Deauth working)
 
 
 
