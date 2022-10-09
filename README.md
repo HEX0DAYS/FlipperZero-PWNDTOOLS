@@ -36,6 +36,6 @@ First, connect your device to your esp8266 via WiFi, the default password is : <
 
 # Need help? join the Uncensored & Unofficial Discord Server! Join  <a href="https://discord.gg/MXCfNgwtW7">NOW!</a>
 
-Thanks to @SpacehuhnTech
+Thanks to @SpacehuhnTech , @JustDr00py and more!
 
--B4
+-B4CKD00OR
