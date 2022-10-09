@@ -28,7 +28,7 @@ Where /dev/ttyUSB0 is the COM port of your device, write_flash is telling the pr
 # How to upgrade your Deauther's attacks
 
 - Very simple, we should go and change the settings that we find when we connect via the web to our esp8266.
-First, connect your device to your esp8266 via WiFi, the default password is : <b>deauther</b / once you are connected to your esp8266 via wifi, go to the browser and navigate to <b>192.168.4.1</b> once inside, you will be correctly in the gui of your Deauther, we need two settings.
+First, connect your device to your esp8266 via WiFi, the default password is : <b>deauther</b> once you are connected to your esp8266 via wifi, go to the browser and navigate to <b>192.168.4.1</b> once inside, you will be correctly in the gui of your Deauther, we need two settings.
 
 <img src="./deauther_gui.png">
 
