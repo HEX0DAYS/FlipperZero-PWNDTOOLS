@@ -34,6 +34,12 @@ First, connect your device to your esp8266 via WiFi, the default password is : <
 
 - Change Deauthpertarget from 25 to 100 and Deauthreason from 1 to 4 and then click Save.
 
+# Screenshoots of current Deauther at work, it seem like the Marauder tool.
+
+<img src="./Deauther1.jpg">
+
+<img src="./Deauther2.jpg">
+
 # Need help? join the Uncensored & Unofficial Flipper Zero Discord Server! Join  <a href="https://discord.gg/MXCfNgwtW7">NOW!</a>
 
 Thanks to @SpacehuhnTech , @JustDr00py and more!
