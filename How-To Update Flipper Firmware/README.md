@@ -9,7 +9,15 @@
 
 - Once you have downloaded the .zip or .tgz folder, extract it to the Desktop, so that you will have the unzipped folder in the Desktop.
 - Insert the <b>SD-card</b> of your <b>FlipperZero</b> into the computer (Only the <b>SD-card</b>, the flipper can also be switched off, we only want the SD-Card to be connected to the computer with its adapter) and open the file manager of the <b>SD-card</b> and first of all, <b>DELETE</b> the <b>/apps folder</b> of your flipper zero SD-card.
+
+<img src="2.png">
+
 - Once you have deleted the <b>/apps</b> folder of your SD-card of your flipper zero, navigate and look for the <b>"Update"</b> folder, enter it, delete everything inside it if you have folders inside and take and move the folder that we have previously extracted on the Desktop and move it into the folder. <b>(/update)</b>
+
+<img src="3.png"> 
+
+<img src="4.png">
+
 - Once this is done, we're pretty much done, now the only thing left to do is remove the SD-card from the computer and insert it into the Flipper Zero. Turn on the Flipper Zero and click once the arrow down, then the arrow to the left of your Flipper and you will find yourself in the menu, look for the folder <b>/update</b>, enter it, then enter in the folder you will found inside in <b>/update</b> and look for a file called "update", launch this file and your Flipper will will turn off to perform the update or change of Firmware, really simple!
   
 
