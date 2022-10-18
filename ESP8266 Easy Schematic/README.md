@@ -12,3 +12,7 @@
 - Best Wrapping wire: https://www.amazon.it/dp/B09TH4DDXT?ref=ppx_pop_mob_ap_share
 - PERFECT PCBs for FlipperZ: https://www.amazon.it/dp/B07CQQK214?ref=ppx_pop_mob_ap_share
 - Perfect 90 degree connectors: https://www.amazon.it/dp/B00UQ8HJEQ?ref=ppx_pop_mob_ap_share
+
+# Video tutorial - how to build a full esp8266 by Davide Gatti.
+
+[![Esp8266 Video Tutorial](https://img.youtube.com/vi/FgA39dpPaaM/0.jpg)](https://www.youtube.com/watch?v=FgA39dpPaaM)
