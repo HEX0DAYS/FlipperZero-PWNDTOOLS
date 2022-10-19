@@ -2,7 +2,7 @@
 
 
 
-- Many users in the Flipper Zero community have found that using the <a href="https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module">SequoiaSan</a> V1 Deauther tool, the Deauth does not work and other options are not efficent.
+- Many users in the Flipper Zero community have found that using the <a href="https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module">SequoiaSan</a> V1 Deauther tool, the Deauth does not work and other options are not efficent. Tested using Unleashed/RogueMaster cfw, with the Official firmware it doesn't work, download the new V2 by Unleashed that work with the Official FZ firmware, [HERE](https://github.com/UberGuidoZ/Flipper/blob/main/Applications/Unleashed/GPIO_Extra/ESP8266_Wifi_Deauther_v2.fap)
 - Here you can find the optimized Version 2.6.0 of the <a href="https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module">original Deauther</a> tool already compiled (.faps) and working for the Flipper Zero plus How-To and more.
 
 # How-TO Flash the Deauther V2.6.0 .bin for the Esp8266 board
