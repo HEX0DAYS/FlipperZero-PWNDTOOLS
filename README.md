@@ -4,7 +4,7 @@
 
 - Many users in the Flipper Zero community have found that using the <a href="https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module">SequoiaSan</a> V1 Deauther tool, the Deauth does not work and other options are not efficent.
 - Here you can find the optimized Version 2.6.0 of the <a href="https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module">original Deauther</a> tool already compiled (.faps) and working for the Flipper Zero plus How-To and more.
-- important: - Tested using Unleashed/RogueMaster cfw, with the Official firmware it doesn't work, download the new V2 by Unleashed that work with the Official FZ firmware, [HERE](https://github.com/UberGuidoZ/Flipper/blob/main/Applications/Unleashed/GPIO_Extra/ESP8266_Wifi_Deauther_v2.fap)
+- important: - UPDATED TO API 6.1 , DOWNLOAD THE LATEST RELEASE FROM [HERE](https://github.com/HEX0DAYS/FlipperZero-PWNDTOOLS/releases/download/2.6.0%2B/ESP8266_B_Wifi_Deauther.fap)
 
 # How-TO Flash the Deauther V2.6.0 .bin for the Esp8266 board
 
@@ -24,7 +24,7 @@ Where /dev/ttyUSB0 is the COM port of your device, write_flash is telling the pr
 
 # We  need now to transfer the .faps on the flipper and everything will work
 
-- You can download the Deauther V2.6.0 .faps from <a href="https://github.com/HEX0DAYS/FlipperZero-CONVERT/blob/5b3c00dce5286211581b37c7cee997f71d05a80d/Deauther2.6.0_FAPS/ESP8266_B4_Wifi_Deauther.fap">HERE</a> (Already compiled) and put on applications/GPIO/ on the SD-Card of your Flipper Zero. Then plug the SD-card on your flipper, the esp8266 board on the flipper, go on Applications/GPIO and then you can run the version 2.6.0 the Deauther with everything working, <b>IMPORTANT</b> When you open the app, let the Esp8266 finish to scan, wait for the blue LED to go off, once it is off you can click on the other things, otherwise, the app will crash. every time the deauther is started it will start an automatic scan, remember not to touch anything while it does its startup scan.
+- You can download the updated to api 6.1 Deauther V2.6.0+ .faps from <a href="https://github.com/HEX0DAYS/FlipperZero-PWNDTOOLS/releases/download/2.6.0%2B/ESP8266_B_Wifi_Deauther.fap">HERE</a> (Already compiled) and put on applications/GPIO/ on the SD-Card of your Flipper Zero. Then plug the SD-card on your flipper, the esp8266 board on the flipper, go on Applications/GPIO and then you can run the version 2.6.0 the Deauther with everything working, <b>IMPORTANT</b> When you open the app, let the Esp8266 finish to scan, wait for the blue LED to go off, once it is off you can click on the other things, otherwise, the app will crash. every time the deauther is started it will start an automatic scan, remember not to touch anything while it does its startup scan.
 
 # How to upgrade your Deauther's attacks
 
