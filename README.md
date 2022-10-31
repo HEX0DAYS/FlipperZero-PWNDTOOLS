@@ -41,6 +41,18 @@ First, connect your device to your esp8266 via WiFi, the default password is : <
 
 <img src="./Deauther2.jpg">
 
+# Wrong API version ? Compile by our own is very easy !
+
+- First of all, let's git all the firmware repo by Unleashed for example, with this command: (USING GIT)
+
+<b>git clone --recursive https://github.com/DarkFlippers/unleashed-firmware.git</b>
+
+- Then add the Deauther V2 Source code in Applications/plugins in the folder we have cloned with git and then let's compile running this command:
+
+<b>.\fbt.cmd COMPACT=1 DEBUG=0 updater_package</b>
+
+- Once we have copmpiled, you will found the artifacts-default folder on your desktop or in /users, so just move this folder on /update folder of your Flipper Zero sd card, then put back the sd card on your Flipper Zero, turn on the Flipper, and click once the arrow down, then the arrow to the left of your Flipper and you will find yourself in the menu, look for the folder /update, enter it, then enter in the folder you will found inside in /update and look for a file called "update", launch this file and your Flipper will turn off to perform the update or change of Firmware, really simple! So you can found your API updated .faps.
+
 # Need help? join the Uncensored & Unofficial Flipper Zero Discord Server! Join  <a href="https://discord.gg/MXCfNgwtW7">NOW!</a>
 
 Thanks to @SpacehuhnTech , @JustDr00py and more!
