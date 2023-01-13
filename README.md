@@ -41,7 +41,7 @@ First, connect your device to your esp8266 via WiFi, the default password is : <
 
 <img src="./Deauther2.jpg">
 
-# Wrong API version ? Compile by our own is very easy !
+# Wrong API version ? Compile by your own is very easy !
 
 - First of all, let's git all the firmware repo by Unleashed for example, with this command: (USING GIT)
 
